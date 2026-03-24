@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mayson Engineering Limited - 香港專業冷氣工程</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Calibri, "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+  background: #f7f9fc;
+  color: #222;
+  line-height: 1.8;
+}
+a { text-decoration: none; }
+
+/* 頂部 Logo 欄 */
+.logo-bar {
+  background: #0A3D62;
+  text-align: center;
+  padding: 12px 0;
+}
+.logo {
+  height: 120px; /* 根據你的 Logo 高度調整 */
+  width: auto;
+}
+
+/* 首屏大標題 */
+.hero {
+  background: #0A3D62;
+  color: #fff;
+  text-align: center;
+  padding: 50px 20px 70px;
+}
+.hero h1 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.hero .desc {
+  font-size: 17px;
+  opacity: 0.92;
+  max-width: 700px;
+  margin: 0 auto 28px;
+}
+.hero .btn {
+  display: inline-block;
+  background: #fff;
+  color: #0A3D62;
+  padding: 14px 32px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: 0.25s;
+}
+.hero .btn:hover {
+  background: #e6f4ff;
+}
+
+/* 內容容器 */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.section {
+  padding: 70px 0;
+}
+.section-title {
+  text-align: center;
+  font-size: 26px;
+  color: #0A3D62;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+/* 卡片 */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.04);
+  transition: 0.25s;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 22px rgba(0,0,0,0.07);
+}
+.card h3 {
+  color: #0A3D62;
+  font-size: 19px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+.card p {
+  color: #444;
+  font-size: 15px;
+}
+
+/* 聯絡我們 */
+.contact {
+  background: #0A3D62;
+  color: #fff;
+  text-align: center;
+  padding: 70px 0;
+}
+.contact h2 {
+  font-size: 26px;
+  margin-bottom: 28px;
+}
+.contact p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* 頁尾 */
+footer {
+  background: #111;
+  color: #999;
+  text-align: center;
+  padding: 28px 20px;
+  font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- 頂部 Logo（已去背，直接替換為你的圖片路徑） -->
+<div class="logo-bar">
+  <img src="mayson-logo-transparent.png" alt="Mayson Engineering Logo" class="logo">
+</div>
+
+<!-- 首頁大標題 -->
+<section class="hero">
+  <h1>Mayson Engineering Limited</h1>
+  <div class="desc">香港專業冷氣工程｜安裝．保養．維修．清洗．系統設計</div>
+  <a href="#contact" class="btn">立即聯絡報價</a>
+</section>
+
+<!-- 服務項目 -->
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">服務項目</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>冷氣安裝</h3>
+        <p>分離式、窗型、吊隱式、商用多聯機，標準施工、安全可靠、專業技師操作。</p>
+      </div>
+      <div class="card">
+        <h3>冷氣維修</h3>
+        <p>不冷、漏水、異音、故障、不啟動等問題快速檢修，現場判斷即時處理。</p>
+      </div>
+      <div class="card">
+        <h3>保養清洗</h3>
+        <p>深度清潔、除菌除霉、節電優化，有效延長機器使用壽命並提升效能。</p>
+      </div>
+      <div class="card">
+        <h3>工程規劃</h3>
+        <p>住宅、商鋪、寫字樓、工廠冷氣系統整體規劃、設計與安裝工程。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 為何選擇我們 -->
+<section class="section" style="background:#fff;">
+  <div class="container">
+    <h2 class="section-title">為何選擇我們</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>專業資歷</h3>
+        <p>多年香港工程經驗，團隊持有專業資格，施工品質穩定可靠。</p>
+      </div>
+      <div class="card">
+        <h3>價格透明</h3>
+        <p>先報價後施工，無隱藏收費、無額外加價，客戶安心有保障。</p>
+      </div>
+      <div class="card">
+        <h3>全港服務</h3>
+        <p>香港全區快速到府，急件優先安排，效率與服務兼備。</p>
+      </div>
+      <div class="card">
+        <h3>完善售後</h3>
+        <p>工程保固、後續支援、問題跟進，提供長期穩定售後服務。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 聯絡我們 -->
+<section id="contact" class="contact">
+  <div class="container">
+    <h2>立即聯絡我們</h2>
+    <p>電話：2649 1284 / 6773 1284</p>
+    <p>Email：info@maysonhk.com</p>
+    <p>服務區域：香港全區</p>
+    <p>服務時間：歡迎隨時查詢</p>
+  </div>
+</section>
+
+<!-- 頁尾 -->
+<footer>
+  <p>Mayson Engineering Limited © 2026 版權所有｜香港專業冷氣工程服務</p>
+</footer>
+
+</body>
+</html>
